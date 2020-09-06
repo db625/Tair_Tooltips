@@ -6,8 +6,16 @@
 --
 ---------------------------------------------
 
+local name,addon=...;
+
 ---------------------------------------------
--- Spell setup
+--
+-- Config
+--
+---------------------------------------------
+
+---------------------------------------------
+-- Define Spells
 ---------------------------------------------
 
 local Tair_Tooltips_Spells = {
@@ -23,7 +31,13 @@ local Tair_Tooltips_Spells = {
 }
 
 ---------------------------------------------
--- Check if the current tooltip is one of the above spells
+--
+-- Functions
+--
+---------------------------------------------
+
+---------------------------------------------
+-- Check Spell
 ---------------------------------------------
 
 function Tair_Tooltips_IsHeal(SpellName)
@@ -35,7 +49,7 @@ function Tair_Tooltips_IsHeal(SpellName)
 end
 
 ---------------------------------------------
--- Update the tooltip for the spell
+-- Update Tooltip
 ---------------------------------------------
 
 GameTooltip:HookScript("OnTooltipSetSpell", function(self)
