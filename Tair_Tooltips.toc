@@ -1,0 +1,7 @@
+## Interface: 11305
+## Title: Tair's Tooltips
+## Author: Tair
+## Notes: Adds useful information to classic healing spell tooltips, plus style enhancements for ElvUI.
+## Version: 0.1
+
+Tair_Tooltips.lua
